@@ -1,9 +1,9 @@
 ---
-title: 功能配置演示
+title: 博文
 index: false
 icon: laptop-code
 category:
-  - 使用指南
+  - 示例
 ---
 
 <Catalog />

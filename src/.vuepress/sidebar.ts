@@ -15,6 +15,12 @@ export default sidebar({
       icon: "book",
       prefix: "posts/",
       children: "structure",
-    }
+    },
+    {
+      text: "务虚",
+      icon: "laptop-code",
+      prefix: "/trade/",
+      children: "structure",
+    },
   ],
 });

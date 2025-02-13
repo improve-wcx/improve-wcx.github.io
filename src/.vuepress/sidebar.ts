@@ -19,7 +19,7 @@ export default sidebar({
     {
       text: "务虚",
       icon: "laptop-code",
-      prefix: "/trade/",
+      prefix: "trade/",
       children: "structure",
     },
   ],

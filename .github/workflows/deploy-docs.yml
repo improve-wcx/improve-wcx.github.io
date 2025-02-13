@@ -34,9 +34,11 @@ jobs:
         run: |
           corepack enable
           pnpm install --frozen-lockfile
-          cd node_modules/.pnpm/nodejs-jieba\@0.3.0_encoding\@0.1.13/node_modules/nodejs-jieba/
+      
+      - name: 安装 nodejieba
+        run: |-
           pnpm binary:build
-          cd -
+        working-directory: node_modules/.pnpm/nodejs-jieba\@0.3.0_encoding\@0.1.13/node_modules/nodejs-jieba/
 
       - name: 构建文档
         env:

@@ -33,11 +33,6 @@ jobs:
       - name: 安装依赖
         run: |
           pnpm install --frozen-lockfile
-      
-      - name: 安装 nodejieba
-        run: |-
-          pnpm binary:build
-        working-directory: node_modules/.pnpm/nodejs-jieba\@0.3.0_encoding\@0.1.13/node_modules/nodejs-jieba/
 
       - name: 构建文档
         env:

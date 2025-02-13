@@ -21,5 +21,8 @@
   "dependencies": {
     "nodejs-jieba": "^0.3.0"
   },
-  "packageManager": "pnpm@10.0.0"
+  "packageManager": "pnpm@10.0.0",
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild", "nodejs-jieba"]
+  }
 }

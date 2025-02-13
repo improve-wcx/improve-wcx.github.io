@@ -4,11 +4,11 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://improve-wcx.github.io",
 
   author: {
-    name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    name: "王晨曦",
+    url: "https://improve-wcx.github.io",
   },
 
   iconAssets: "fontawesome-with-brands",
@@ -31,7 +31,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    description: "一个前端开发者",
+    description: "路虽远，行则将至。",
     intro: "/intro.html",
     medias: {
       Baidu: "https://example.com",

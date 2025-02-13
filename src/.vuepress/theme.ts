@@ -175,6 +175,15 @@ export default hopeTheme({
           fieldName === 'id' ? [text] : cut(text, true),
       },
     },
+    comment: {
+      // You should generate and use your own comment service
+      provider: "Giscus",
+      repo: "improve-wcx/tuku",
+      repoId: "R_kgDON4IMvg",
+      category: "Announcements",
+      categoryId: "DIC_kwDON4IMvs4Cm7iC",
+    },
+    
     // 启用之前需安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
     // comment: {

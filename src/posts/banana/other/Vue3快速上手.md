@@ -69,7 +69,7 @@ tag:
 
 > 备注：目前`vue-cli`已处于维护模式，官方推荐基于 `Vite` 创建项目。
 
-```powershell
+```bash
 ## 查看@vue/cli版本，确保@vue/cli版本在4.5.0以上
 vue --version
 
@@ -101,7 +101,7 @@ npm run serve
 <img src="images/1683167182037-71c78210-8217-4e7d-9a83-e463035efbbe.png" alt="webpack构建" title="webpack构建" style="zoom:20%;box-shadow:0 0 10px black" />	<img src="images/1683167204081-582dc237-72bc-499e-9589-2cdfd452e62f.png" alt="vite构建" title="vite构建" style="zoom: 20%;box-shadow:0 0 10px black" />
 * 具体操作如下（点击查看[官方文档](https://cn.vuejs.org/guide/quick-start.html#creating-a-vue-application)）
 
-```powershell
+```bash
 ## 1.创建命令
 npm create vue@latest
 
@@ -127,7 +127,7 @@ npm create vue@latest
 ```
 自己动手编写一个App组件
 
-```vue
+```html
 <template>
   <div class="app">
     <h1>你好啊！</h1>
@@ -165,7 +165,7 @@ npm create vue@latest
 
 `Vue3`向下兼容`Vue2`语法，且`Vue3`中的模板中可以没有根标签
 
-```vue
+```html
 <template>
   <div class="person">
     <h2>姓名：{{name}}</h2>
@@ -230,7 +230,7 @@ npm create vue@latest
 - `setup`函数返回的对象中的内容，可直接在模板中使用。
 - `setup`中访问`this`是`undefined`。
 - `setup`函数会在`beforeCreate`之前调用，它是“领先”所有钩子执行的。
-```vue
+```html
 <template>
   <div class="person">
     <h2>姓名：{{name}}</h2>
@@ -273,7 +273,7 @@ npm create vue@latest
 
 - 若返回一个**对象**：则对象中的：属性、方法等，在模板中均可以直接使用**（重点关注）。**
 - 若返回一个**函数**：则可以自定义渲染内容，代码如下：
-```jsx
+```js
 setup(){
   return ()=> '你好啊！'
 }
@@ -286,7 +286,7 @@ setup(){
 ### setup 语法糖
 `setup`函数有一个语法糖，这个语法糖，可以让我们把`setup`独立出去，代码如下：
 
-```vue
+```html
 <template>
   <div class="person">
     <h2>姓名：{{name}}</h2>
@@ -329,7 +329,7 @@ setup(){
 
 1. 第一步：`npm i vite-plugin-vue-setup-extend -D`
 2. 第二步：`vite.config.ts`
-```jsx
+```js
 import { defineConfig } from 'vite'
 import VueSetupExtend from 'vite-plugin-vue-setup-extend'
 
@@ -347,7 +347,7 @@ export default defineConfig({
 - **注意点：**
    - `JS`中操作数据需要：`xxx.value`，但模板中不需要`.value`，直接使用即可。
    - 对于`let name = ref('张三')`来说，`name`不是响应式的，`name.value`是响应式的。
-```vue
+```html
 <template>
   <div class="person">
     <h2>姓名：{{name}}</h2>
@@ -390,7 +390,7 @@ export default defineConfig({
 - **语法：**`let 响应式对象= reactive(源对象)`。
 - **返回值：**一个`Proxy`的实例对象，简称：响应式对象。
 - **注意点：**`reactive`定义的响应式数据是“深层次”的。
-```vue
+```html
 <template>
   <div class="person">
     <h2>汽车信息：一台{{ car.brand }}汽车，价值{{ car.price }}万</h2>
@@ -440,7 +440,7 @@ function test(){
 
 - 其实`ref`接收的数据可以是：**基本类型**、**对象类型**。
 - 若`ref`接收的是对象类型，内部其实也是调用了`reactive`函数。
-```vue
+```html
 <template>
   <div class="person">
     <h2>汽车信息：一台{{ car.brand }}汽车，价值{{ car.price }}万</h2>
@@ -513,7 +513,7 @@ function test(){
 - 作用：将一个响应式对象中的每一个属性，转换为`ref`对象。
 - 备注：`toRefs`与`toRef`功能一致，但`toRefs`可以批量转换。
 - 语法如下：
-```vue
+```html
 <template>
   <div class="person">
     <h2>姓名：{{person.name}}</h2>
@@ -555,7 +555,7 @@ function test(){
 
 <img src="images/computed.gif" style="zoom:20%;" />  
 
-```vue
+```html
 <template>
   <div class="person">
     姓：<input type="text" v-model="firstName"> <br>
@@ -609,7 +609,7 @@ function test(){
 ### * 情况一
 监视`ref`定义的【基本类型】数据：直接写数据名即可，监视的是其`value`值的改变。
 
-```vue
+```html
 <template>
   <div class="person">
     <h1>情况一：监视【ref】定义的【基本类型】数据</h1>
@@ -644,7 +644,7 @@ function test(){
 >
 > * 若修改整个`ref`定义的对象，`newValue` 是新值， `oldValue` 是旧值，因为不是同一个对象了。
 
-```vue
+```html
 <template>
   <div class="person">
     <h1>情况二：监视【ref】定义的【对象类型】数据</h1>
@@ -687,7 +687,7 @@ function test(){
 ```
 ### *  情况三
 监视`reactive`定义的【对象类型】数据，且默认开启了深度监视。
-```vue
+```html
 <template>
   <div class="person">
     <h1>情况三：监视【reactive】定义的【对象类型】数据</h1>
@@ -747,7 +747,7 @@ function test(){
 
 结论：监视的要是对象里的属性，那么最好写函数式，注意点：若是对象监视的是地址值，需要关注对象内部，需要手动开启深度监视。
 
-```vue
+```html
 <template>
   <div class="person">
     <h1>情况四：监视【ref】或【reactive】定义的【对象类型】数据中的某个属性</h1>
@@ -804,7 +804,7 @@ function test(){
 ```
 ### * 情况五
 监视上述的多个数据
-```vue
+```html
 <template>
   <div class="person">
     <h1>情况五：监视上述的多个数据</h1>
@@ -869,7 +869,7 @@ function test(){
 
 * 示例代码：
 
-  ```vue
+  ```html
   <template>
     <div class="person">
       <h1>需求：水温达到50℃，或水位达到20cm，则联系服务器</h1>
@@ -932,7 +932,7 @@ function test(){
 
 用在普通`DOM`标签上：
 
-```vue
+```html
 <template>
   <div class="person">
     <h1 ref="title1">尚硅谷</h1>
@@ -970,7 +970,7 @@ function test(){
 
 用在组件标签上：
 
-```vue
+```html
 <!-- 父组件App.vue -->
 <template>
   <Person ref="ren"/>
@@ -1021,7 +1021,7 @@ function test(){
 > 
 > `App.vue`中代码：
 >
-> ```vue
+> ```html
 ><template>
 > 	<Person :list="persons"/>
 > </template>
@@ -1042,7 +1042,7 @@ function test(){
 > 
 > `Person.vue`中代码：
 >
-> ```Vue
+> ```html
 ><template>
 > <div class="person">
 >  <ul>
@@ -1104,7 +1104,7 @@ function test(){
 
 * 示例代码：
 
-  ```vue
+  ```html
   <template>
     <div class="person">
       <h2>当前求和为：{{ sum }}</h2>
@@ -1219,7 +1219,7 @@ function test(){
 
 - 组件中具体使用：
 
-  ```vue
+  ```html
   <template>
     <h2>当前求和为：{{sum}}</h2>
     <button @click="increment">点我+1</button>
@@ -1295,7 +1295,7 @@ function test(){
 
 - `App.vue`代码如下
 
-  ```vue
+  ```html
   <template>
     <div class="app">
       <h2 class="title">Vue路由测试</h2>
@@ -1353,7 +1353,7 @@ function test(){
 
 ## 4.5. 【to的两种写法】
 
-```vue
+```html
 <!-- 第一种：to的字符串写法 -->
 <router-link active-class="active" to="/home">主页</router-link>
 
@@ -1389,7 +1389,7 @@ routes:[
 
 跳转路由：
 
-```vue
+```html
 <!--简化前：需要写完整的路径（to的字符串写法） -->
 <router-link to="/news/detail">跳转</router-link>
 
@@ -1438,7 +1438,7 @@ routes:[
    
 3. 跳转路由（记得要加完整路径）：
 
-   ```vue
+   ```html
    <router-link to="/news/detail">xxxx</router-link>
    <!-- 或 -->
    <router-link :to="{path:'/news/detail'}">xxxx</router-link>
@@ -1446,7 +1446,7 @@ routes:[
 
 4. 记得去`Home`组件中预留一个`<router-view>`
 
-   ```vue
+   ```html
    <template>
      <div class="news">
        <nav class="news-list">
@@ -1469,7 +1469,7 @@ routes:[
 
    1. 传递参数
 
-      ```vue
+      ```html
       <!-- 跳转并携带query参数（to的字符串写法） -->
       <router-link to="/news/detail?a=1&b=2&content=欢迎你">
       	跳转
@@ -1505,7 +1505,7 @@ routes:[
 
    1. 传递参数
 
-      ```vue
+      ```html
       <!-- 跳转并携带params参数（to的字符串写法） -->
       <RouterLink :to="`/news/detail/001/新闻001/内容001`">{{news.title}}</RouterLink>
       				
@@ -1571,7 +1571,7 @@ routes:[
 
   3. 开启`replace`模式：
 
-     ```vue
+     ```html
      <RouterLink replace .......>News</RouterLink>
      ```
 
@@ -1692,7 +1692,7 @@ app.mount('#app')
    
 5. 组件中使用`state`中的数据
 
-   ```vue
+   ```html
    <template>
      <h2>当前求和为：{{ sumStore.sum }}</h2>
    </template>
@@ -1706,7 +1706,7 @@ app.mount('#app')
    </script>
    ```
 
-   ```vue
+   ```html
    <template>
    	<ul>
        <li v-for="talk in talkStore.talkList" :key="talk.id">
@@ -1784,7 +1784,7 @@ app.mount('#app')
 - 借助`storeToRefs`将`store`中的数据转为`ref`对象，方便在模板中使用。
 - 注意：`pinia`提供的`storeToRefs`只会将数据做转换，而`Vue`的`toRefs`会转换`store`中数据。
 
-```vue
+```html
 <template>
 	<div class="count">
 		<h2>当前求和为：{{sum}}</h2>
@@ -1912,7 +1912,7 @@ export const useTalkStore = defineStore('talk',()=>{
 
 父组件：
 
-```vue
+```html
 <template>
   <div class="father">
     <h3>父组件，</h3>
@@ -1937,7 +1937,7 @@ export const useTalkStore = defineStore('talk',()=>{
 
 子组件
 
-```vue
+```html
 <template>
   <div class="child">
     <h3>子组件</h3>
@@ -2062,7 +2062,7 @@ function sendToy(){
 
 2. 前序知识 —— `v-model`的本质
 
-   ```vue
+   ```html
    <!-- 使用v-model指令 -->
    <input type="text" v-model="userName">
    
@@ -2076,7 +2076,7 @@ function sendToy(){
 
 3. 组件标签上的`v-model`的本质：`:moldeValue` ＋ `update:modelValue`事件。
 
-   ```vue
+   ```html
    <!-- 组件标签上使用v-model指令 -->
    <AtguiguInput v-model="userName"/>
    
@@ -2086,7 +2086,7 @@ function sendToy(){
 
    `AtguiguInput`组件中：
 
-   ```vue
+   ```html
    <template>
      <div class="box">
        <!--将接收的value值赋给input元素的value属性，目的是：为了呈现数据 -->
@@ -2109,7 +2109,7 @@ function sendToy(){
 
 4. 也可以更换`value`，例如改成`abc`
 
-   ```vue
+   ```html
    <!-- 也可以更换value，例如改成abc-->
    <AtguiguInput v-model:abc="userName"/>
    
@@ -2119,7 +2119,7 @@ function sendToy(){
 
    `AtguiguInput`组件中：
 
-   ```vue
+   ```html
    <template>
      <div class="box">
        <input 
@@ -2140,7 +2140,7 @@ function sendToy(){
 
 5. 如果`value`可以更换，那么就可以在组件标签上多次使用`v-model`
 
-   ```vue
+   ```html
    <AtguiguInput v-model:abc="userName" v-model:xyz="password"/>
    ```
 
@@ -2157,7 +2157,7 @@ function sendToy(){
 
 父组件：
 
-```vue
+```html
 <template>
   <div class="father">
     <h3>父组件</h3>
@@ -2181,7 +2181,7 @@ function sendToy(){
 
 子组件：
 
-```vue
+```html
 <template>
 	<div class="child">
 		<h3>子组件</h3>
@@ -2196,7 +2196,7 @@ function sendToy(){
 
 孙组件：
 
-```vue
+```html
 <template>
 	<div class="grand-child">
 		<h3>孙组件</h3>
@@ -2242,7 +2242,7 @@ function sendToy(){
 
    【第一步】父组件中，使用`provide`提供数据
 
-   ```vue
+   ```html
    <template>
      <div class="father">
        <h3>父组件</h3>
@@ -2277,7 +2277,7 @@ function sendToy(){
    
    【第二步】孙组件中使用`inject`配置项接受数据。
    
-   ```vue
+   ```html
    <template>
      <div class="grand-child">
        <h3>我是孙组件</h3>
@@ -2306,7 +2306,7 @@ function sendToy(){
 
 ![img](http://49.232.112.44/images/default_slot.png)
 
-```vue
+```html
 父组件中：
         <Category title="今日热门游戏">
           <ul>
@@ -2325,7 +2325,7 @@ function sendToy(){
 
 ### 2. 具名插槽
 
-```vue
+```html
 父组件中：
         <Category title="今日热门游戏">
           <template v-slot:s1>
@@ -2353,7 +2353,7 @@ function sendToy(){
 
 3. 具体编码：
 
-   ```vue
+   ```html
    父组件中：
          <Game v-slot="params">
          <!-- <Game v-slot:default="params"> -->
@@ -2580,7 +2580,7 @@ import { defineAsyncComponent,Suspense } from "vue";
 const Child = defineAsyncComponent(()=>import('./Child.vue'))
 ```
 
-```vue
+```html
 <template>
     <div class="app">
         <h3>我是App组件</h3>

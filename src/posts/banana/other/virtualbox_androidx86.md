@@ -33,7 +33,7 @@ tag:
 
 ![img](./FILES/virtualbox_androidx86.md/35dc1cf4.png)
 
-![img](./FILES/virtualbox_androidx86.md/ecbc7d74.bin)
+![img](./FILES/virtualbox_androidx86.md/ecbc7d74.bin.png)
 
 创建好之后如下：
 

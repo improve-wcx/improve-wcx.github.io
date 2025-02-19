@@ -14,7 +14,7 @@ tag:
 - 官方发版地址：[Release v3.0.0 One Piece · vuejs/core](https://github.com/vuejs/core/releases/tag/v3.0.0)
 - 截止2023年10月，最新的公开版本为：`3.3.4`
 
-  <img src="images/1695089947298-161c1b47-eb86-42fb-b1f8-d6a4fcab8ee2.png" alt="image.png" style="zoom:30%;" /> 
+  <img src="./images/1695089947298-161c1b47-eb86-42fb-b1f8-d6a4fcab8ee2.png" alt="image.png" style="zoom:30%;" /> 
 
 ## 1.1. 【性能的提升】
 
@@ -98,7 +98,7 @@ npm run serve
 - 对 `TypeScript`、`JSX`、`CSS` 等支持开箱即用。
 - 真正的按需编译，不再等待整个应用编译完成。
 - `webpack`构建 与 `vite`构建对比图如下：
-<img src="images/1683167182037-71c78210-8217-4e7d-9a83-e463035efbbe.png" alt="webpack构建" title="webpack构建" style="zoom:20%;box-shadow:0 0 10px black" />	<img src="images/1683167204081-582dc237-72bc-499e-9589-2cdfd452e62f.png" alt="vite构建" title="vite构建" style="zoom: 20%;box-shadow:0 0 10px black" />
+<img src="./images/1683167182037-71c78210-8217-4e7d-9a83-e463035efbbe.png" alt="webpack构建" title="webpack构建" style="zoom:20%;box-shadow:0 0 10px black" />	<img src="./images/1683167204081-582dc237-72bc-499e-9589-2cdfd452e62f.png" alt="vite构建" title="vite构建" style="zoom: 20%;box-shadow:0 0 10px black" />
 * 具体操作如下（点击查看[官方文档](https://cn.vuejs.org/guide/quick-start.html#creating-a-vue-application)）
 
 ```bash
@@ -152,9 +152,9 @@ npm create vue@latest
 
 安装官方推荐的`vscode`插件：
 
-<img src="images/volar.png" alt="Snipaste_2023-10-08_20-46-34" style="zoom:50%;" /> 
+<img src="./images/volar.png" alt="Snipaste_2023-10-08_20-46-34" style="zoom:50%;" /> 
 
-<img src="images/image-20231218085906380.png" alt="image-20231218085906380" style="zoom:42%;" /> 
+<img src="./images/image-20231218085906380.png" alt="image-20231218085906380" style="zoom:42%;" /> 
 
 总结：
 
@@ -211,13 +211,13 @@ npm create vue@latest
 
 `Options`类型的 `API`，数据、方法、计算属性等，是分散在：`data`、`methods`、`computed`中的，若想新增或者修改一个需求，就需要分别修改：`data`、`methods`、`computed`，不便于维护和复用。
 
-<img src="images/1696662197101-55d2b251-f6e5-47f4-b3f1-d8531bbf9279.gif" alt="1.gif" style="zoom:70%;border-radius:20px" /><img src="images/1696662200734-1bad8249-d7a2-423e-a3c3-ab4c110628be.gif" alt="2.gif" style="zoom:70%;border-radius:20px" />
+<img src="./images/1696662197101-55d2b251-f6e5-47f4-b3f1-d8531bbf9279.gif" alt="1.gif" style="zoom:70%;border-radius:20px" /><img src="./images/1696662200734-1bad8249-d7a2-423e-a3c3-ab4c110628be.gif" alt="2.gif" style="zoom:70%;border-radius:20px" />
 
 ### Composition API 的优势
 
 可以用函数的方式，更加优雅的组织代码，让相关功能的代码更加有序的组织在一起。
 
-<img src="images/1696662249851-db6403a1-acb5-481a-88e0-e1e34d2ef53a.gif" alt="3.gif" style="height:300px;border-radius:10px"  /><img src="images/1696662256560-7239b9f9-a770-43c1-9386-6cc12ef1e9c0.gif" alt="4.gif" style="height:300px;border-radius:10px"  />
+<img src="./images/1696662249851-db6403a1-acb5-481a-88e0-e1e34d2ef53a.gif" alt="3.gif" style="height:300px;border-radius:10px"  /><img src="./images/1696662256560-7239b9f9-a770-43c1-9386-6cc12ef1e9c0.gif" alt="4.gif" style="height:300px;border-radius:10px"  />
 
 > 说明：以上四张动图原创作者：大帅老猿
 
@@ -499,7 +499,7 @@ function test(){
 
 > 1. `ref`创建的变量必须使用`.value`（可以使用`volar`插件自动添加`.value`）。
 >
->    <img src="images/自动补充value.png" alt="自动补充value" style="zoom:50%;border-radius:20px" /> 
+>    <img src="./images/自动补充value.png" alt="自动补充value" style="zoom:50%;border-radius:20px" /> 
 >
 > 2. `reactive`重新分配一个新对象，会**失去**响应式（可以使用`Object.assign`去整体替换）。
 
@@ -553,7 +553,7 @@ function test(){
 
 作用：根据已有数据计算出新数据（和`Vue2`中的`computed`作用一致）。
 
-<img src="images/computed.gif" style="zoom:20%;" />  
+<img src="./images/computed.gif" style="zoom:20%;" />  
 
 ```html
 <template>
@@ -869,7 +869,7 @@ function test(){
 
 * 示例代码：
 
-  ```html
+```html
   <template>
     <div class="person">
       <h1>需求：水温达到50℃，或水位达到20cm，则联系服务器</h1>
@@ -918,7 +918,7 @@ function test(){
       }
     })
   </script>
-  ```
+```
   
   
 
@@ -1007,7 +1007,7 @@ function test(){
 
 ## 3.12. 【props】
 
-> ```js
+>```js
 >// 定义一个接口，限制每个Person对象的格式
 > export interface PersonInter {
 >  id:string,
@@ -1017,11 +1017,11 @@ function test(){
 >    
 > // 定义一个自定义类型Persons
 > export type Persons = Array<PersonInter>
-> ```
+>```
 > 
 > `App.vue`中代码：
 >
-> ```html
+>```html
 ><template>
 > 	<Person :list="persons"/>
 > </template>
@@ -1038,11 +1038,11 @@ function test(){
 >      ])
 >    </script>
 >   
-> ```
+>```
 > 
 > `Person.vue`中代码：
 >
-> ```html
+>```html
 ><template>
 > <div class="person">
 >  <ul>
@@ -1069,7 +1069,7 @@ function test(){
 >   })
 >    console.log(props)
 >   </script>
->   ```
+>```
 > 
 
 ## 3.13. 【生命周期】
@@ -1104,7 +1104,7 @@ function test(){
 
 * 示例代码：
 
-  ```html
+```html
   <template>
     <div class="person">
       <h2>当前求和为：{{ sum }}</h2>
@@ -1151,7 +1151,7 @@ function test(){
       console.log('卸载完毕')
     })
   </script>
-  ```
+```
 
 ## 3.14. 【自定义hook】
 
@@ -1163,7 +1163,7 @@ function test(){
 
 - `useSum.ts`中内容如下：
 
-  ```js
+```js
   import {ref,onMounted} from 'vue'
   
   export default function(){
@@ -1182,11 +1182,11 @@ function test(){
     //向外部暴露数据
     return {sum,increment,decrement}
   }		
-  ```
+```
   
 - `useDog.ts`中内容如下：
 
-  ```js
+```js
   import {reactive,onMounted} from 'vue'
   import axios,{AxiosError} from 'axios'
   
@@ -1197,7 +1197,7 @@ function test(){
     async function getDog(){
       try {
         // 发请求
-        let {data} = await axios.get('https://dog.ceo/api/breed/pembroke/images/random')
+        let {data} = await axios.get('https://dog.ceo/api/breed/pembroke/./images/random')
         // 维护数据
         dogList.push(data.message)
       } catch (error) {
@@ -1215,11 +1215,11 @@ function test(){
     //向外部暴露数据
     return {dogList,getDog}
   }
-  ```
+```
 
 - 组件中具体使用：
 
-  ```html
+```html
   <template>
     <h2>当前求和为：{{sum}}</h2>
     <button @click="increment">点我+1</button>
@@ -1245,7 +1245,7 @@ function test(){
     let {sum,increment,decrement} = useSum()
     let {dogList,getDog} = useDog()
   </script>
-  ```
+```
 
     
 
@@ -1255,7 +1255,7 @@ function test(){
 
 ## 4.1. 【对路由的理解】
 
-<img src="images/image-20231018144351536.png" alt="image-20231018144351536" style="zoom:20%;border-radius:40px" /> 
+<img src="./images/image-20231018144351536.png" alt="image-20231018144351536" style="zoom:20%;border-radius:40px" /> 
 
 ## 4.2. 【基本切换效果】
 
@@ -1263,7 +1263,7 @@ function test(){
 
 - 路由配置文件代码如下：
 
-  ```js
+```js
   import {createRouter,createWebHistory} from 'vue-router'
   import Home from '@/pages/Home.vue'
   import News from '@/pages/News.vue'
@@ -1283,19 +1283,19 @@ function test(){
   	]
   })
   export default router
-  ```
+```
 * `main.ts`代码如下：
 
-  ```js
+```js
   import router from './router/index'
   app.use(router)
   
   app.mount('#app')
-  ```
+```
 
 - `App.vue`代码如下
 
-  ```html
+```html
   <template>
     <div class="app">
       <h2 class="title">Vue路由测试</h2>
@@ -1315,7 +1315,7 @@ function test(){
   <script lang="ts" setup name="App">
     import {RouterLink,RouterView} from 'vue-router'  
   </script>
-  ```
+```
 
 ## 4.3. 【两个注意点】
 
@@ -1331,12 +1331,12 @@ function test(){
    >
    > 缺点：后期项目上线，需要服务端配合处理路径问题，否则刷新会有`404`错误。
    >
-   > ```js
+   >```js
    > const router = createRouter({
    >   	history:createWebHistory(), //history模式
    >   	/******/
    > })
-   > ```
+   >```
 
 2. `hash`模式
 
@@ -1344,12 +1344,12 @@ function test(){
    >
    > 缺点：`URL`带有`#`不太美观，且在`SEO`优化方面相对较差。
    >
-   > ```js
+   >```js
    > const router = createRouter({
    >   	history:createWebHashHistory(), //hash模式
    >   	/******/
    > })
-   > ```
+   >```
 
 ## 4.5. 【to的两种写法】
 
@@ -1405,7 +1405,7 @@ routes:[
 
 2. 配置路由规则，使用`children`配置项：
 
-   ```ts
+```ts
    const router = createRouter({
      history:createWebHistory(),
    	routes:[
@@ -1434,19 +1434,19 @@ routes:[
    	]
    })
    export default router
-   ```
+```
    
 3. 跳转路由（记得要加完整路径）：
 
-   ```html
+```html
    <router-link to="/news/detail">xxxx</router-link>
    <!-- 或 -->
    <router-link :to="{path:'/news/detail'}">xxxx</router-link>
-   ```
+```
 
 4. 记得去`Home`组件中预留一个`<router-view>`
 
-   ```html
+```html
    <template>
      <div class="news">
        <nav class="news-list">
@@ -1459,7 +1459,7 @@ routes:[
        </div>
      </div>
    </template>
-   ```
+```
 
    
 
@@ -1469,7 +1469,7 @@ routes:[
 
    1. 传递参数
 
-      ```html
+```html
       <!-- 跳转并携带query参数（to的字符串写法） -->
       <router-link to="/news/detail?a=1&b=2&content=欢迎你">
       	跳转
@@ -1489,23 +1489,23 @@ routes:[
       >
         {{news.title}}
       </RouterLink>
-      ```
+```
 
    2. 接收参数：
 
-      ```js
+```js
       import {useRoute} from 'vue-router'
       const route = useRoute()
       // 打印query参数
       console.log(route.query)
-      ```
+```
 
 
 ### params参数
 
    1. 传递参数
 
-      ```html
+```html
       <!-- 跳转并携带params参数（to的字符串写法） -->
       <RouterLink :to="`/news/detail/001/新闻001/内容001`">{{news.title}}</RouterLink>
       				
@@ -1522,16 +1522,16 @@ routes:[
       >
         {{news.title}}
       </RouterLink>
-      ```
+```
 
    2. 接收参数：
 
-      ```js
+```js
       import {useRoute} from 'vue-router'
       const route = useRoute()
       // 打印params参数
       console.log(route.params)
-      ```
+```
 
 > 备注1：传递`params`参数时，若使用`to`的对象写法，必须使用`name`配置项，不能用`path`。
 >
@@ -1566,14 +1566,14 @@ routes:[
 
   2. 浏览器的历史记录有两种写入方式：分别为```push```和```replace```：
 
-     - ```push```是追加历史记录（默认值）。
+     -```push```是追加历史记录（默认值）。
      - `replace`是替换当前记录。
 
   3. 开启`replace`模式：
 
-     ```html
+```html
      <RouterLink replace .......>News</RouterLink>
-     ```
+```
 
 ## 4.11. 【编程式导航】
 
@@ -1597,12 +1597,12 @@ console.log(router.replace)
 
 2. 具体编码：
 
-   ```js
+```js
    {
        path:'/',
        redirect:'/about'
    }
-   ```
+```
 
 
 
@@ -1610,7 +1610,7 @@ console.log(router.replace)
 
 ## 5.1【准备一个效果】
 
-<img src="./images/pinia_example.gif" alt="pinia_example" style="zoom:30%;border:3px solid" /> 
+<img src="././images/pinia_example.gif" alt="pinia_example" style="zoom:30%;border:3px solid" /> 
 
 ## 5.2【搭建 pinia 环境】
 
@@ -1646,7 +1646,7 @@ app.mount('#app')
 
 3. 具体编码：`src/store/count.ts`
 
-   ```ts
+```ts
    // 引入defineStore用于创建store
    import {defineStore} from 'pinia'
    
@@ -1663,11 +1663,11 @@ app.mount('#app')
      // 计算
      getters:{}
    })
-   ```
+```
 
 4. 具体编码：`src/store/talk.ts`
 
-   ```js
+```js
    // 引入defineStore用于创建store
    import {defineStore} from 'pinia'
    
@@ -1688,11 +1688,11 @@ app.mount('#app')
      // 计算
      getters:{}
    })
-   ```
+```
    
 5. 组件中使用`state`中的数据
 
-   ```html
+```html
    <template>
      <h2>当前求和为：{{ sumStore.sum }}</h2>
    </template>
@@ -1704,9 +1704,9 @@ app.mount('#app')
      // 调用useXxxxxStore得到对应的store
      const sumStore = useSumStore()
    </script>
-   ```
+```
 
-   ```html
+```html
    <template>
    	<ul>
        <li v-for="talk in talkStore.talkList" :key="talk.id">
@@ -1721,7 +1721,7 @@ app.mount('#app')
    
      const talkStore = useTalkStore()
    </script>
-   ```
+```
 
    
 
@@ -1729,22 +1729,22 @@ app.mount('#app')
 
 1. 第一种修改方式，直接修改
 
-   ```ts
+```ts
    countStore.sum = 666
-   ```
+```
 
 2. 第二种修改方式：批量修改
 
-   ```ts
+```ts
    countStore.$patch({
      sum:999,
      school:'atguigu'
    })
-   ```
+```
 
 3. 第三种修改方式：借助`action`修改（`action`中可以编写一些业务逻辑）
 
-   ```js
+```js
    import { defineStore } from 'pinia'
    
    export const useCountStore = defineStore('count', {
@@ -1766,17 +1766,17 @@ app.mount('#app')
      },
      /*************/
    })
-   ```
+```
 
 4. 组件中调用`action`即可
 
-   ```js
+```js
    // 使用countStore
    const countStore = useCountStore()
    
    // 调用对应action
    countStore.incrementOdd(n.value)
-   ```
+```
 
 
 ## 5.5.【storeToRefs】
@@ -1810,7 +1810,7 @@ app.mount('#app')
 
   2. 追加```getters```配置。
 
-     ```js
+```js
      // 引入defineStore用于创建store
      import {defineStore} from 'pinia'
      
@@ -1835,14 +1835,14 @@ app.mount('#app')
          }
        }
      })
-     ```
+```
 
   3. 组件中读取数据：
 
-     ```js
+```js
      const {increment,decrement} = countStore
      let {sum,school,bigSum,upperSchool} = storeToRefs(countStore)
-     ```
+```
 
      
 
@@ -1901,7 +1901,7 @@ export const useTalkStore = defineStore('talk',()=>{
 
 **常见搭配形式：**
 
-<img src="images/image-20231119185900990.png" alt="image-20231119185900990" style="zoom:60%;" /> 
+<img src="./images/image-20231119185900990.png" alt="image-20231119185900990" style="zoom:60%;" /> 
 
 ## 6.1. 【props】
 
@@ -1969,18 +1969,18 @@ export const useTalkStore = defineStore('talk',()=>{
 
 3. 示例：
 
-   ```html
+```html
    <!--在父组件中，给子组件绑定自定义事件：-->
    <Child @send-toy="toy = $event"/>
    
    <!--注意区分原生事件与自定义事件中的$event-->
    <button @click="toy = $event">测试</button>
-   ```
+```
 
-   ```js
+```js
    //子组件中，触发事件：
    this.$emit('send-toy', 具体数据)
-   ```
+```
 
 ## 6.3. 【mitt】
 
@@ -2058,35 +2058,34 @@ function sendToy(){
 
 ## 6.4.【v-model】
 
-1. 概述：实现 **父↔子** 之间相互通信。
-
+1. 概述：实现 **父子** 之间相互通信。
 2. 前序知识 —— `v-model`的本质
 
-   ```html
-   <!-- 使用v-model指令 -->
-   <input type="text" v-model="userName">
-   
-   <!-- v-model的本质是下面这行代码 -->
-   <input 
-     type="text" 
-     :value="userName" 
-     @input="userName =(<HTMLInputElement>$event.target).value"
-   >
-   ```
+```html
+<!-- 使用v-model指令 -->
+<input type="text" v-model="userName">
+
+<!-- v-model的本质是下面这行代码 -->
+<input 
+  type="text" 
+  :value="userName" 
+  @input="userName =(<HTMLInputElement>$event.target).value"
+>
+```
 
 3. 组件标签上的`v-model`的本质：`:moldeValue` ＋ `update:modelValue`事件。
 
-   ```html
+```html
    <!-- 组件标签上使用v-model指令 -->
    <AtguiguInput v-model="userName"/>
    
    <!-- 组件标签上v-model的本质 -->
    <AtguiguInput :modelValue="userName" @update:model-value="userName = $event"/>
-   ```
+```
 
    `AtguiguInput`组件中：
 
-   ```html
+```html
    <template>
      <div class="box">
        <!--将接收的value值赋给input元素的value属性，目的是：为了呈现数据 -->
@@ -2105,21 +2104,21 @@ function sendToy(){
      // 声明事件
      const emit = defineEmits(['update:model-value'])
    </script>
-   ```
+```
 
 4. 也可以更换`value`，例如改成`abc`
 
-   ```html
+```html
    <!-- 也可以更换value，例如改成abc-->
    <AtguiguInput v-model:abc="userName"/>
    
    <!-- 上面代码的本质如下 -->
    <AtguiguInput :abc="userName" @update:abc="userName = $event"/>
-   ```
+```
 
    `AtguiguInput`组件中：
 
-   ```html
+```html
    <template>
      <div class="box">
        <input 
@@ -2136,13 +2135,13 @@ function sendToy(){
      // 声明事件
      const emit = defineEmits(['update:abc'])
    </script>
-   ```
+```
 
 5. 如果`value`可以更换，那么就可以在组件标签上多次使用`v-model`
 
-   ```html
+```html
    <AtguiguInput v-model:abc="userName" v-model:xyz="password"/>
-   ```
+```
 
    
 
@@ -2242,7 +2241,7 @@ function sendToy(){
 
    【第一步】父组件中，使用`provide`提供数据
 
-   ```html
+```html
    <template>
      <div class="father">
        <h3>父组件</h3>
@@ -2271,13 +2270,13 @@ function sendToy(){
      provide('moneyContext',{money,updateMoney})
      provide('car',car)
    </script>
-   ```
+```
    
    > 注意：子组件中不用编写任何东西，是不受到任何打扰的
    
    【第二步】孙组件中使用`inject`配置项接受数据。
    
-   ```html
+```html
    <template>
      <div class="grand-child">
        <h3>我是孙组件</h3>
@@ -2293,7 +2292,7 @@ function sendToy(){
     let {money,updateMoney} = inject('moneyContext',{money:0,updateMoney:(x:number)=>{}})
      let car = inject('car')
 </script>
-   ```
+```
 
 
 ## 6.8. 【pinia】
@@ -2304,7 +2303,7 @@ function sendToy(){
 
 ### 1. 默认插槽
 
-![img](http://49.232.112.44/images/default_slot.png)
+![img](http://49.232.112.44/./images/default_slot.png)
 
 ```html
 父组件中：
@@ -2353,7 +2352,7 @@ function sendToy(){
 
 3. 具体编码：
 
-   ```html
+```html
    父组件中：
          <Game v-slot="params">
          <!-- <Game v-slot:default="params"> -->
@@ -2380,7 +2379,7 @@ function sendToy(){
              {id:'asgdytsa04',name:'斗罗大陆'}
            ])
          </script>
-   ```
+```
 
 
 
@@ -2394,9 +2393,9 @@ function sendToy(){
 
 2. 用法：
 
-   ```js
+```js
    let myVar = shallowRef(initialValue);
-   ```
+```
 
 3. 特点：只跟踪引用值的变化，不关心值内部的属性变化。
 
@@ -2406,9 +2405,9 @@ function sendToy(){
 
 2. 用法：
 
-   ```js
+```js
    const myObj = shallowReactive({ ... });
-   ```
+```
 
 3. 特点：对象的顶层属性是响应式的，但嵌套对象的属性不是。
 
@@ -2426,10 +2425,10 @@ function sendToy(){
 
 2. 用法：
 
-   ```js
+```js
    const original = reactive({ ... });
    const readOnlyCopy = readonly(original);
-   ```
+```
 
 3. 特点：
 
@@ -2446,10 +2445,10 @@ function sendToy(){
 
 2. 用法：
 
-   ```js
+```js
    const original = reactive({ ... });
    const shallowReadOnlyCopy = shallowReadonly(original);
-   ```
+```
 
 3. 特点：
 
@@ -2471,7 +2470,7 @@ function sendToy(){
 
 2. 具体编码：
 
-   ```js
+```js
    import { reactive,toRaw,markRaw,isReactive } from "vue";
    
    /* toRaw */
@@ -2494,7 +2493,7 @@ function sendToy(){
    console.log(isReactive(rawPerson))
    console.log(isReactive(citys))
    console.log(isReactive(citys2))
-   ```
+```
 
 ### `markRaw`
 
@@ -2504,7 +2503,7 @@ function sendToy(){
 
 2. 编码：
 
-   ```js
+```js
    /* markRaw */
    let citys = markRaw([
      {id:'asdda01',name:'北京'},
@@ -2514,7 +2513,7 @@ function sendToy(){
    ])
    // 根据原始对象citys去创建响应式对象citys2 —— 创建失败，因为citys被markRaw标记了
    let citys2 = reactive(citys)
-   ```
+```
 
 ## 7.4.【customRef】
 

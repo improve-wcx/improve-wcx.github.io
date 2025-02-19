@@ -9,12 +9,6 @@ tag:
 
 # Dart 逻辑运算符
 
-[![img](./FILES/Dart_logic.md/7ada550c.webp)](https://juejin.cn/user/184373684214733)
-
-[cekiasoo![lv-3](./FILES/Dart_logic.md/3a6db764.webp)](https://juejin.cn/user/184373684214733)
-
-2018年09月22日 16:06 ·  阅读 1894
-
 ### 一、什么是逻辑运算符
 
 逻辑运算符是表示逻辑与、逻辑或、逻辑非的，好像高中数学有讲这个，

@@ -9,11 +9,6 @@ tag:
 
 # 快速入门Dart基础
 
- [![小丢子](./FILES/40m_Learn_dart.md/7773db38.jpeg)](https://www.zhihu.com/people/xiao-diu-zi-84)
-
- [小丢子](https://www.zhihu.com/people/xiao-diu-zi-84)
-
-
  27 人赞同了该文章
 
  教大家快速学习一门新语言：

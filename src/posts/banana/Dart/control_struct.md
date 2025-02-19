@@ -10,8 +10,6 @@ tag:
 # Dart学习-控制流语句
 
 
-[你需要一台永动机](https://www.jianshu.com/u/984fc7a6d527)关注IP属地: 福建
-
 
 
 你可以使用以下任一项来控制Dart代码的流程:

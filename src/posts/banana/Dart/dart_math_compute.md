@@ -9,11 +9,6 @@ tag:
 
 # Dart 算术运算符
 
-[![img](./FILES/dart_math_compute.md/7ada550c.webp)](https://juejin.cn/user/184373684214733)
-
-[cekiasoo![lv-3](./FILES/dart_math_compute.md/3a6db764.webp)](https://juejin.cn/user/184373684214733)
-
-2018年09月22日 16:02 ·  阅读 6389
 
 ### 一、什么是算术运算符
 

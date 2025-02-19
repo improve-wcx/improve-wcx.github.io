@@ -9,11 +9,6 @@ tag:
 
 # Dart 关系运算符
 
-[![img](./FILES/Dart_relation_compute.md/7ada550c.webp)](https://juejin.cn/user/184373684214733)
-
-[cekiasoo![lv-3](./FILES/Dart_relation_compute.md/3a6db764.webp)](https://juejin.cn/user/184373684214733)
-
-2018年09月22日 16:05 ·  阅读 2116
 
 ### 一、什么是关系运算符
 

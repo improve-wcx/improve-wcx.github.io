@@ -13,7 +13,7 @@ tag:
 
 以下是一些使用 `itertools` 进行排列组合操作的例子：
 
-### 排列
+## 排列
 ```python
 from itertools import permutations
 
@@ -23,7 +23,7 @@ for p in permutations(items):
 
 ```
 
-### 组合
+## 组合
 
 ```python
 from itertools import combinations
@@ -34,7 +34,7 @@ for c in combinations(items, 2):  # 2 表示要选择的元素数量
 
 ```
 
-### 笛卡尔积（Cartesian Product）
+## 笛卡尔积（Cartesian Product）
 
 ```python
 from itertools import product
@@ -45,7 +45,7 @@ for p in product(items, repeat=2):  # repeat=2 表示重复的次数
 
 ```
 
-### 组合带重复（Combinations with Replacement）
+## 组合带重复（Combinations with Replacement）
 
 ```python
 from itertools import combinations_with_replacement

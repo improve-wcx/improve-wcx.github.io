@@ -9,11 +9,6 @@ tag:
 
 # Dart 三元运算符
 
-[![img](./FILES/dart_three_var_compute.md/7ada550c.webp)](https://juejin.cn/user/184373684214733)
-
-[cekiasoo![lv-3](./FILES/dart_three_var_compute.md/3a6db764.webp)](https://juejin.cn/user/184373684214733)
-
-2018年09月22日 16:08 ·  阅读 6354
 
 ### 一、三元运算符的用法
 

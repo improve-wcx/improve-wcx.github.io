@@ -9,12 +9,6 @@ tag:
 
 # Dart 移位运算符
 
-[![img](./FILES/dart_bit_move.md/7ada550c.webp)](https://juejin.cn/user/184373684214733)
-
-[cekiasoo![lv-3](./FILES/dart_bit_move.md/3a6db764.webp)](https://juejin.cn/user/184373684214733)
-
-2018年09月22日 16:09 ·  阅读 2405
-
 ### 一、什么是移位运算符
 
 移位运算符也是对整数的二进制进行操作的，Dart 中移位操作符有

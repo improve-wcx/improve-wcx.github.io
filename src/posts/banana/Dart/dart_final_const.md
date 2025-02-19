@@ -9,11 +9,6 @@ tag:
 
 # Dart 常量
 
-[![img](./FILES/dart_final_const.md/7ada550c.webp)](https://juejin.cn/user/184373684214733)
-
-[cekiasoo![lv-3](./FILES/dart_final_const.md/3a6db764.webp)](https://juejin.cn/user/184373684214733)
-
-2018年09月22日 15:55 ·  阅读 3858
 
 ### 一、什么是常量
 

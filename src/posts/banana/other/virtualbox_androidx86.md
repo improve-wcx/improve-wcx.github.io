@@ -11,11 +11,11 @@ tag:
 
 #                  [     VirtualBox中安装Android-x86详解      ](https://www.cnblogs.com/wynn0123/p/6288344.html)             
 
-# 1.下载安装VirtualBox
+## 1.下载安装VirtualBox
 
 官网：http://www.virtualbox.org/wiki/Downloads
 
-# 2.下载Android-x86
+## 2.下载Android-x86
 
 官网：http://www.android-x86.org/download
 
@@ -23,7 +23,7 @@ tag:
 
 这里我们下载5.1稳定版
 
-# 3.新建VirtualBox虚拟机，并进行相关配置
+## 3.新建VirtualBox虚拟机，并进行相关配置
 
 ![img](./FILES/virtualbox_androidx86.md/120cca4a.png)
 
@@ -51,7 +51,7 @@ tag:
 
 ![img](./FILES/virtualbox_androidx86.md/ccd77403.png)
 
-# 4.安装Android-x86
+## 4.安装Android-x86
 
 双击打开上面创建的虚拟机，加载android-x86-5.1-rc1.iso镜像，如下
 
@@ -138,14 +138,14 @@ Yes
 
 
 
-# 常见问题
-## 产生原因
+## 常见问题
+#### 产生原因
 
 > The newest kernels have moved the video mode setting into the kernel. So all the programming of the hardware specific clock rates and  registers on the video card happen in the kernel rather than in the X  driver when the X server starts.. This makes it possible to have high  resolution nice looking splash (boot) screens and flicker free  transitions from boot splash to login screen. Unfortunately, on some  cards this doesnt work properly and you end up with a black screen.  Adding the nomodeset parameter instructs the kernel to not load video  drivers and use BIOS modes instead until X is loaded.
 
 某些显卡下Linux内核无法正常工作导致黑屏。
 
-## 解决方法
+#### 解决方法
 
 开机后在grub界面选择第二项`Debug mode`，输入
 

@@ -9,12 +9,6 @@ tag:
 
 # Dart 注释
 
-[![img](./FILES/dart_explain.md/7ada550c.webp)](https://juejin.cn/user/184373684214733)
-
-[cekiasoo![lv-3](./FILES/dart_explain.md/3a6db764.webp)](https://juejin.cn/user/184373684214733)
-
-2018年09月22日 15:52 ·  阅读 240
-
 ### 一、什么是注释
 
 注释呢就是用于解释和说明代码的，适当地注释代码可增强代码的可读性的，Dart 也是支持注释的，注释一般是不会影响到代码的执行的，除了 HTML 的条件注释，这里说的是 Dart ，注释自然对 Dart 的代码执行是没影响的。

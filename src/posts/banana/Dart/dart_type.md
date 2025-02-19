@@ -9,11 +9,6 @@ tag:
 
 # Dart 数据类型
 
-[![img](./FILES/dart_type.md/7ada550c.webp)](https://juejin.cn/user/184373684214733)
-
-[cekiasoo![lv-3](./FILES/dart_type.md/3a6db764.webp)](https://juejin.cn/user/184373684214733)
-
-2018年09月22日 15:57 ·  阅读 4195
 
 ### 一、Dart 有哪些数据类型
 

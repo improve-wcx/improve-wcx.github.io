@@ -6,6 +6,7 @@ category:
 tag:
   - 黄
 ---
+# golang环境搭建
 
 ### Linux下安装
 

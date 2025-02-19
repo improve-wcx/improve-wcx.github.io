@@ -9,12 +9,6 @@ tag:
 
 # Dart 变量
 
-[![img](./FILES/dart_var.md/7ada550c.webp)](https://juejin.cn/user/184373684214733)
-
-[cekiasoo![lv-3](./FILES/dart_var.md/3a6db764.webp)](https://juejin.cn/user/184373684214733)
-
-2018年09月22日 15:54 ·  阅读 174
-
 ### 一、什么是变量
 
 变量就是在运行期间随时会被改变的数据，比如说有个存储单元这一秒存的数是 1，下一秒可能会被改成 2；

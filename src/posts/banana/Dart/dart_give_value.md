@@ -9,11 +9,6 @@ tag:
 
 # Dart 赋值运算符
 
-[![img](./FILES/dart_give_value.md/7ada550c.webp)](https://juejin.cn/user/184373684214733)
-
-[cekiasoo![lv-3](./FILES/dart_give_value.md/3a6db764.webp)](https://juejin.cn/user/184373684214733)
-
-2018年09月22日 16:09 ·  阅读 440
 
 ### 一、什么是赋值运算符
 

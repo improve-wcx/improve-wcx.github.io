@@ -7,9 +7,9 @@ tag:
   - 黄
 ---
 
-## mysql的一些操作
+# mysql的一些操作
 
-### 加速导入
+## 加速导入
 ```text
 # 关闭日志,0是关闭，1是开启
 set sql_log_bin=OFF;
@@ -40,7 +40,7 @@ set global max_allowed_packet = 1073741824;
 select @@max_allowed_packet;
 ```
 
-### 常见操作
+## 常见操作
 
 登录成功后执行如下命令
 
@@ -93,7 +93,7 @@ Query OK, 0 rows affected (0.00 sec)
 
 这样，判断密码的标准就基于密码的长度了。这个由validate_password_length参数来决定。
 
-### 导入导出
+## 导入导出
 
 **1.    导出数据和表结构：**
 
@@ -156,7 +156,7 @@ mysql -u用户名 -p密码数据库名 < 数据库名.sql
 mysql -uabc_f -p abc < abc.sql
 ```
 
-### 常用设置
+## 常用设置
 
 **1、 设置表格字符集**
 

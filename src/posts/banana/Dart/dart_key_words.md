@@ -9,12 +9,6 @@ tag:
 
 # Dart 关键字
 
-[![img](./FILES/dart_key_words.md/7ada550c.webp)](https://juejin.cn/user/184373684214733)
-
-[cekiasoo![lv-3](./FILES/dart_key_words.md/3a6db764.webp)](https://juejin.cn/user/184373684214733)
-
-2018年09月22日 15:53 ·  阅读 184
-
 ### 一、什么是关键字
 
 关键字就是保留字，比如变量、类型等的名字，通常不能作为标识符使用；

@@ -8,7 +8,9 @@ export default navbar([
     icon: "laptop-code",
     prefix: "/trade/",
     children: [
-      { text: "韭菜心得", icon: "pen-to-square", link: "GRIAM01" },
+      "GRIAM01",
+      "GRIAM02",
+      "GRIAM03",
     ],
   },
   {
@@ -22,7 +24,7 @@ export default navbar([
         prefix: "apple/",
         children: [
           { text: "如何设计类", icon: "pen-to-square", link: "1" },
-          { text: "Linux Bash配置", icon: "pen-to-square", link: "2" },
+          { text: "终端配置", icon: "pen-to-square", link: "2" },
           "3",
           "4",
         ],

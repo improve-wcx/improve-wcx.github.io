@@ -1,3 +1,13 @@
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - devops
+tag:
+  - 黄
+---
+
+
 # k8s编写yml
 
 ## yml语法

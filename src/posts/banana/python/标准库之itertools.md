@@ -1,3 +1,12 @@
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - python
+tag:
+  - 黄
+---
+
 # 标准库之itertools
 
 `itertools` 是 `Python` 的标准库之一，它提供了用于生成排列、组合、笛卡尔积等迭代器的函数。

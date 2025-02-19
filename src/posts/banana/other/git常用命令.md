@@ -1,3 +1,12 @@
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - 工具
+tag:
+  - 黄
+---
+
 # git常用命令
 
 - git中文乱码

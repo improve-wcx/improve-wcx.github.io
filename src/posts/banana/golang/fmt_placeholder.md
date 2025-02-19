@@ -1,3 +1,12 @@
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - golang
+tag:
+  - 黄
+---
+
 # golang fmt格式“占位符”
 
 golang 的fmt 包实现了格式化I/O函数，类似于C的 printf 和 scanf。

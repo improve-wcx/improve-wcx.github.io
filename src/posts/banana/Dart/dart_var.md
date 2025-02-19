@@ -1,3 +1,12 @@
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - Dart
+tag:
+  - 黄
+---
+
 # Dart 变量
 
 [![img](./FILES/dart_var.md/7ada550c.webp)](https://juejin.cn/user/184373684214733)

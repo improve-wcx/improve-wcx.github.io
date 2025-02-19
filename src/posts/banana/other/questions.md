@@ -1,3 +1,13 @@
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - GPT
+
+tag:
+  - 黄
+---
+
 # questions
 
 - chatGML 问题模板 代码截图识别

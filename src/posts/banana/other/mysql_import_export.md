@@ -1,3 +1,12 @@
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - 工具
+tag:
+  - 黄
+---
+
 ## mysql的一些操作
 
 ### 加速导入

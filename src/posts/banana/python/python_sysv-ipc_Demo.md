@@ -1,3 +1,12 @@
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - python
+tag:
+  - 黄
+---
+
 ## python  sysv-ipc 进程间通信的使用
 
 #### 配置系统参数

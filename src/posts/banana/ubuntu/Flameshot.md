@@ -1,4 +1,16 @@
-### 在 Linux 中使用 Flameshot 获取屏幕截图并编辑
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - ubuntu
+  - 截图
+
+tag:
+  - 黄
+---
+
+
+# 在 Linux 中使用 Flameshot 获取屏幕截图并编辑
 
 ------
 

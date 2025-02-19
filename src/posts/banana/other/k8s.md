@@ -1,3 +1,12 @@
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - 工具
+tag:
+  - 黄
+---
+
 # k8s
 11.[k8s-tutorials](https://github.com/guangzhengli/k8s-tutorials)
 

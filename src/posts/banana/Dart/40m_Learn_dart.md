@@ -1,3 +1,12 @@
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - Dart
+tag:
+  - 黄
+---
+
 # 快速入门Dart基础
 
  [![小丢子](./FILES/40m_Learn_dart.md/7773db38.jpeg)](https://www.zhihu.com/people/xiao-diu-zi-84)

@@ -1,3 +1,15 @@
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - scrcpy
+  - 投屏工具
+tag:
+  - 黄
+---
+
+# scrcpy
+
 2.[scrcpy](https://github.com/Genymobile/scrcpy)
 
 

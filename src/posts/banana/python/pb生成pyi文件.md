@@ -1,3 +1,12 @@
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - python
+tag:
+  - 黄
+---
+
 # pb生成pyi文件
 
 ## 具体使用参考源码

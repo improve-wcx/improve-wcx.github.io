@@ -1,3 +1,12 @@
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - devops
+tag:
+  - 黄
+---
+
 # k8s笔记
 
 ## windows 修改host

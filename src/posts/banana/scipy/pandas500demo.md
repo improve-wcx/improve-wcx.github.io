@@ -1,3 +1,13 @@
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - python
+  - pandas
+tag:
+  - 黄
+---
+
 # pandas500demo
 
 ## 环境依赖

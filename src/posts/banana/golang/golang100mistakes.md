@@ -1,3 +1,12 @@
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - golang
+tag:
+  - 黄
+---
+
 # golang100mistakes
 ### 2.2 100 个 Go 常见错误：100-go-mistakes
 

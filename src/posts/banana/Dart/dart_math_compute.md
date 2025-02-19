@@ -1,3 +1,12 @@
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - Dart
+tag:
+  - 黄
+---
+
 # Dart 算术运算符
 
 [![img](./FILES/dart_math_compute.md/7ada550c.webp)](https://juejin.cn/user/184373684214733)

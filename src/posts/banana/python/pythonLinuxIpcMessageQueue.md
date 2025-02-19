@@ -1,4 +1,13 @@
-## python Linux ipc通信之消息队列实例
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - python
+tag:
+  - 黄
+---
+
+# python Linux ipc通信之消息队列实例
 
 #### 消费端
 

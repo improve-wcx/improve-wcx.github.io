@@ -1,3 +1,14 @@
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - Android
+  - 虚拟机
+
+tag:
+  - 黄
+---
+
 #                  [     VirtualBox中安装Android-x86详解      ](https://www.cnblogs.com/wynn0123/p/6288344.html)             
 
 # 1.下载安装VirtualBox

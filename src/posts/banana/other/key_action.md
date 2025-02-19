@@ -1,3 +1,12 @@
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - 工具
+tag:
+  - 黄
+---
+
 # 按键随时查看
 
 [工具carnac](https://github.com/Code52/carnac)

@@ -1,3 +1,12 @@
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - 姑射山人说
+tag:
+  - 黄
+---
+
 # 姑射山人说
 
 ## 关于疫情

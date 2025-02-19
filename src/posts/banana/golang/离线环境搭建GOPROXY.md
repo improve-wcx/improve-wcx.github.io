@@ -1,3 +1,12 @@
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - golang
+tag:
+  - 黄
+---
+
 ## 离线环境搭建GOPROXY
 
 #### 下载go项目的依赖包

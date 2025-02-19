@@ -1,3 +1,15 @@
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - 工具
+  - prometheus
+  - granfana
+  - node_exporter
+tag:
+  - 黄
+---
+
 ## 利用granfana、prometheus、node_exporter示例监控部署
 
 ### 下载prometheus、grafana、node_exporter程序。

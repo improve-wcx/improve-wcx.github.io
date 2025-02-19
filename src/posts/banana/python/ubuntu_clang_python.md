@@ -1,4 +1,13 @@
-## ubuntu环境下用C语言来拓展`python3`示例
+---
+icon: pen-to-square
+date: 2022-01-05
+category:
+  - python
+tag:
+  - 黄
+---
+
+# ubuntu环境下用C语言来拓展`python3`示例
 
 1. 安装`python3-devel`
 
